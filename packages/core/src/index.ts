@@ -36,7 +36,7 @@ export { getFanficDimensionConfig, FANFIC_DIMENSIONS, type FanficDimensionConfig
 export { buildFanficCanonSection, buildCharacterVoiceProfiles, buildFanficModeInstructions } from "./agents/fanfic-prompt-sections.js";
 
 // Utils
-export { fetchUrl } from "./utils/web-search.js";
+export { fetchUrl, searchWeb } from "./utils/web-search.js";
 export { splitChapters, type SplitChapter } from "./utils/chapter-splitter.js";
 export { createLogger, createStderrSink, createJsonLineSink, nullSink, type Logger, type LogSink, type LogLevel, type LogEntry } from "./utils/logger.js";
 export { loadProjectConfig, GLOBAL_CONFIG_DIR, GLOBAL_ENV_PATH } from "./utils/config-loader.js";
